@@ -4,12 +4,14 @@
 
 # How to deploy ?
 
-## Install requirements
+## 1) Install requirements
 ### pip install -r requirements.txt
 
-## Get API-KEY telegram bot
+
+## 2) Get API-KEY telegram bot
 ### Search @BotFather in telegram
 ### Write your API-KEY in bot.py > TOKEN = "YOUR_BOT_TOKEN"
 
-## Run bot
+
+## 3) Run bot
 ### python3 bot.py
