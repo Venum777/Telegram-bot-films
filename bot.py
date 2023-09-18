@@ -9,6 +9,7 @@ from aiogram.enums import ParseMode
 
 # Local
 from dispatcher import dp
+from database.connection import my_connection
 
 
 load_dotenv()
@@ -20,5 +21,6 @@ async def main() -> None:
 
 
 if __name__ == "__main__":
+    my_connection.create_tables()
     logging.basicConfig(level=logging.INFO, stream=sys.stdout)
     asyncio.run(main())
